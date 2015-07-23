@@ -13,7 +13,9 @@
 		D04E28DD1B607B1B005CC1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D04E28DB1B607B1B005CC1F8 /* Main.storyboard */; };
 		D04E28DF1B607B1B005CC1F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04E28DE1B607B1B005CC1F8 /* Images.xcassets */; };
 		D04E28E21B607B1B005CC1F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04E28E01B607B1B005CC1F8 /* LaunchScreen.xib */; };
-		D04E28EE1B607B1C005CC1F8 /* transtionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E28ED1B607B1C005CC1F8 /* transtionTests.m */; };
+		D04E28EE1B607B1C005CC1F8 /* transitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E28ED1B607B1C005CC1F8 /* transitionTests.m */; };
+		D04E28F91B607B3C005CC1F8 /* PresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E28F81B607B3C005CC1F8 /* PresentedViewController.m */; };
+		D04E28FF1B608532005CC1F8 /* CustomPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D04E28FE1B608532005CC1F8 /* CustomPresentAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D04E28CE1B607B1B005CC1F8 /* transtion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transtion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04E28CE1B607B1B005CC1F8 /* transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04E28D21B607B1B005CC1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04E28D31B607B1B005CC1F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D04E28D51B607B1B005CC1F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +39,13 @@
 		D04E28DC1B607B1B005CC1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D04E28DE1B607B1B005CC1F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D04E28E11B607B1B005CC1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		D04E28E71B607B1C005CC1F8 /* transtionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transtionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04E28E71B607B1C005CC1F8 /* transitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04E28EC1B607B1C005CC1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D04E28ED1B607B1C005CC1F8 /* transtionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transtionTests.m; sourceTree = "<group>"; };
+		D04E28ED1B607B1C005CC1F8 /* transitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transitionTests.m; sourceTree = "<group>"; };
+		D04E28F71B607B3C005CC1F8 /* PresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentedViewController.h; sourceTree = "<group>"; };
+		D04E28F81B607B3C005CC1F8 /* PresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentedViewController.m; sourceTree = "<group>"; };
+		D04E28FD1B608532005CC1F8 /* CustomPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPresentAnimation.h; sourceTree = "<group>"; };
+		D04E28FE1B608532005CC1F8 /* CustomPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPresentAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +69,8 @@
 		D04E28C51B607B1B005CC1F8 = {
 			isa = PBXGroup;
 			children = (
-				D04E28D01B607B1B005CC1F8 /* transtion */,
-				D04E28EA1B607B1C005CC1F8 /* transtionTests */,
+				D04E28D01B607B1B005CC1F8 /* transition */,
+				D04E28EA1B607B1C005CC1F8 /* transitionTests */,
 				D04E28CF1B607B1B005CC1F8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,25 +78,29 @@
 		D04E28CF1B607B1B005CC1F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D04E28CE1B607B1B005CC1F8 /* transtion.app */,
-				D04E28E71B607B1C005CC1F8 /* transtionTests.xctest */,
+				D04E28CE1B607B1B005CC1F8 /* transition.app */,
+				D04E28E71B607B1C005CC1F8 /* transitionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D04E28D01B607B1B005CC1F8 /* transtion */ = {
+		D04E28D01B607B1B005CC1F8 /* transition */ = {
 			isa = PBXGroup;
 			children = (
 				D04E28D51B607B1B005CC1F8 /* AppDelegate.h */,
 				D04E28D61B607B1B005CC1F8 /* AppDelegate.m */,
 				D04E28D81B607B1B005CC1F8 /* ViewController.h */,
 				D04E28D91B607B1B005CC1F8 /* ViewController.m */,
+				D04E28F71B607B3C005CC1F8 /* PresentedViewController.h */,
+				D04E28F81B607B3C005CC1F8 /* PresentedViewController.m */,
+				D04E28FD1B608532005CC1F8 /* CustomPresentAnimation.h */,
+				D04E28FE1B608532005CC1F8 /* CustomPresentAnimation.m */,
 				D04E28DB1B607B1B005CC1F8 /* Main.storyboard */,
 				D04E28DE1B607B1B005CC1F8 /* Images.xcassets */,
 				D04E28E01B607B1B005CC1F8 /* LaunchScreen.xib */,
 				D04E28D11B607B1B005CC1F8 /* Supporting Files */,
 			);
-			path = transtion;
+			path = transition;
 			sourceTree = "<group>";
 		};
 		D04E28D11B607B1B005CC1F8 /* Supporting Files */ = {
@@ -102,13 +112,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D04E28EA1B607B1C005CC1F8 /* transtionTests */ = {
+		D04E28EA1B607B1C005CC1F8 /* transitionTests */ = {
 			isa = PBXGroup;
 			children = (
-				D04E28ED1B607B1C005CC1F8 /* transtionTests.m */,
+				D04E28ED1B607B1C005CC1F8 /* transitionTests.m */,
 				D04E28EB1B607B1C005CC1F8 /* Supporting Files */,
 			);
-			path = transtionTests;
+			path = transitionTests;
 			sourceTree = "<group>";
 		};
 		D04E28EB1B607B1C005CC1F8 /* Supporting Files */ = {
@@ -122,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D04E28CD1B607B1B005CC1F8 /* transtion */ = {
+		D04E28CD1B607B1B005CC1F8 /* transition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04E28F11B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transtion" */;
+			buildConfigurationList = D04E28F11B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transition" */;
 			buildPhases = (
 				D04E28CA1B607B1B005CC1F8 /* Sources */,
 				D04E28CB1B607B1B005CC1F8 /* Frameworks */,
@@ -134,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = transtion;
+			name = transition;
 			productName = transtion;
-			productReference = D04E28CE1B607B1B005CC1F8 /* transtion.app */;
+			productReference = D04E28CE1B607B1B005CC1F8 /* transition.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D04E28E61B607B1C005CC1F8 /* transtionTests */ = {
+		D04E28E61B607B1C005CC1F8 /* transitionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D04E28F41B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transtionTests" */;
+			buildConfigurationList = D04E28F41B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transitionTests" */;
 			buildPhases = (
 				D04E28E31B607B1C005CC1F8 /* Sources */,
 				D04E28E41B607B1C005CC1F8 /* Frameworks */,
@@ -152,9 +162,9 @@
 			dependencies = (
 				D04E28E91B607B1C005CC1F8 /* PBXTargetDependency */,
 			);
-			name = transtionTests;
+			name = transitionTests;
 			productName = transtionTests;
-			productReference = D04E28E71B607B1C005CC1F8 /* transtionTests.xctest */;
+			productReference = D04E28E71B607B1C005CC1F8 /* transitionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -175,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D04E28C91B607B1B005CC1F8 /* Build configuration list for PBXProject "transtion" */;
+			buildConfigurationList = D04E28C91B607B1B005CC1F8 /* Build configuration list for PBXProject "transition" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +198,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D04E28CD1B607B1B005CC1F8 /* transtion */,
-				D04E28E61B607B1C005CC1F8 /* transtionTests */,
+				D04E28CD1B607B1B005CC1F8 /* transition */,
+				D04E28E61B607B1C005CC1F8 /* transitionTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +230,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04E28DA1B607B1B005CC1F8 /* ViewController.m in Sources */,
+				D04E28FF1B608532005CC1F8 /* CustomPresentAnimation.m in Sources */,
+				D04E28F91B607B3C005CC1F8 /* PresentedViewController.m in Sources */,
 				D04E28D71B607B1B005CC1F8 /* AppDelegate.m in Sources */,
 				D04E28D41B607B1B005CC1F8 /* main.m in Sources */,
 			);
@@ -229,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04E28EE1B607B1C005CC1F8 /* transtionTests.m in Sources */,
+				D04E28EE1B607B1C005CC1F8 /* transitionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		D04E28E91B607B1C005CC1F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D04E28CD1B607B1B005CC1F8 /* transtion */;
+			target = D04E28CD1B607B1B005CC1F8 /* transition */;
 			targetProxy = D04E28E81B607B1C005CC1F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -343,9 +355,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = transtion/Info.plist;
+				INFOPLIST_FILE = transition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = transition;
 			};
 			name = Debug;
 		};
@@ -353,9 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = transtion/Info.plist;
+				INFOPLIST_FILE = transition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = transition;
 			};
 			name = Release;
 		};
@@ -371,10 +383,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = transtionTests/Info.plist;
+				INFOPLIST_FILE = transitionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transtion.app/transtion";
+				PRODUCT_NAME = transitionTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transition.app/transition";
 			};
 			name = Debug;
 		};
@@ -386,17 +398,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = transtionTests/Info.plist;
+				INFOPLIST_FILE = transitionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transtion.app/transtion";
+				PRODUCT_NAME = transitionTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transtion.app/transition";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D04E28C91B607B1B005CC1F8 /* Build configuration list for PBXProject "transtion" */ = {
+		D04E28C91B607B1B005CC1F8 /* Build configuration list for PBXProject "transition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04E28EF1B607B1C005CC1F8 /* Debug */,
@@ -405,21 +417,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D04E28F11B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transtion" */ = {
+		D04E28F11B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04E28F21B607B1C005CC1F8 /* Debug */,
 				D04E28F31B607B1C005CC1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		D04E28F41B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transtionTests" */ = {
+		D04E28F41B607B1C005CC1F8 /* Build configuration list for PBXNativeTarget "transitionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D04E28F51B607B1C005CC1F8 /* Debug */,
 				D04E28F61B607B1C005CC1F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

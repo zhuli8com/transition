@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cA7-Hu-Fp1">
+                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <state key="normal" title="点我转场">
+                                    <color key="titleColor" red="0.1551014007" green="0.0097399259870000008" blue="0.0097399259870000008" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="zes-ct-VzG" kind="presentation" id="hYg-wV-oXt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1551014007" green="0.50564648609999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cA7-Hu-Fp1" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Qbh-BT-LWu"/>
+                            <constraint firstItem="cA7-Hu-Fp1" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="pWV-eI-yrI"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Presented View Controller-->
+        <scene sceneID="DNP-xW-h7Y">
+            <objects>
+                <viewController id="zes-ct-VzG" customClass="PresentedViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GbQ-8d-gtc"/>
+                        <viewControllerLayoutGuide type="bottom" id="fWC-zi-BOH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6X5-cr-sUu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0II-c8-sAG">
+                                <rect key="frame" x="270" y="285" width="60" height="30"/>
+                                <state key="normal" title="点我关闭">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickDismmissButton:" destination="zes-ct-VzG" eventType="touchUpInside" id="sCq-XU-5hV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26982666579999998" green="0.66666666669999997" blue="0.1399724661" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="0II-c8-sAG" secondAttribute="centerX" id="6LR-nd-3P8"/>
+                            <constraint firstAttribute="centerY" secondItem="0II-c8-sAG" secondAttribute="centerY" id="cQT-1U-Fkf"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lx4-oB-50Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1002" y="342"/>
+        </scene>
+    </scenes>
+</document>
